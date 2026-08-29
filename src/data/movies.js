@@ -6,6 +6,7 @@ export const movies = [
     year :2010,
     imdb: 8.8,
     rating:4.7,
+      poster: "https://image.tmdb.org/t/p/w500/...",
     description:
     "A thief who enters the dreams of others is given a chance to have his past erased."
     },
@@ -16,6 +17,7 @@ export const movies = [
     year: 2014,
     imdb: 8.7,
     rating: 4.8,
+      poster: "https://image.tmdb.org/t/p/w500/...",
     description:
       "A group of explorers travel through a wormhole in space to find a new home for humanity."
   },
@@ -27,6 +29,7 @@ export const movies = [
     year: 2008,
     imdb: 9.0,
     rating: 4.9,
+      poster: "https://image.tmdb.org/t/p/w500/...",
     description:
       "Batman faces a criminal mastermind who plunges Gotham City into chaos."
   }
