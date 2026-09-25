@@ -1,27 +1,28 @@
 export const movies = [
-    {
+  {
     id: 1,
-    title : "Inception",
-    genre : "Sci-fi",
-    year :2010,
+    title: "Inception",
+    genre: "Sci-Fi",
+    year: 2010,
     imdb: 8.8,
-    rating:4.7,
-      poster: "https://image.tmdb.org/t/p/w500/...",
-    description:
-    "A thief who enters the dreams of others is given a chance to have his past erased."
-    },
-    {
+    rating: 4.7,
+    duration: "2h 28m",
+    poster: "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+    description: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+  },
+  {
     id: 2,
     title: "Interstellar",
     genre: "Sci-Fi",
     year: 2014,
     imdb: 8.7,
     rating: 4.8,
-      poster: "https://image.tmdb.org/t/p/w500/...",
-    description:
-      "A group of explorers travel through a wormhole in space to find a new home for humanity."
+    duration: "2h 49m",
+    poster: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+    description: "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft along with a team of researchers to find a new planet for humans."
   },
-
   {
     id: 3,
     title: "The Dark Knight",
@@ -29,9 +30,93 @@ export const movies = [
     year: 2008,
     imdb: 9.0,
     rating: 4.9,
-      poster: "https://image.tmdb.org/t/p/w500/...",
-    description:
-      "Batman faces a criminal mastermind who plunges Gotham City into chaos."
+    duration: "2h 32m",
+    poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+  },
+  {
+    id: 4,
+    title: "Oppenheimer",
+    genre: "Drama",
+    year: 2023,
+    imdb: 8.9,
+    rating: 4.8,
+    duration: "3h 00m",
+    poster: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/fm6K9vYhua2ToxTHHgTTpsen7VQ.jpg",
+    description: "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II."
+  },
+  {
+    id: 5,
+    title: "Dune: Part Two",
+    genre: "Sci-Fi",
+    year: 2024,
+    imdb: 8.6,
+    rating: 4.8,
+    duration: "2h 46m",
+    poster: "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s520b42.jpg",
+    description: "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family."
+  },
+  {
+    id: 6,
+    title: "Spider-Man: Across the Spider-Verse",
+    genre: "Animation",
+    year: 2023,
+    imdb: 8.7,
+    rating: 4.9,
+    duration: "2h 20m",
+    poster: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+    description: "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence."
+  },
+  {
+    id: 7,
+    title: "Pulp Fiction",
+    genre: "Crime",
+    year: 1994,
+    imdb: 8.9,
+    rating: 4.7,
+    duration: "2h 34m",
+    poster: "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    description: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+  },
+  {
+    id: 8,
+    title: "The Matrix",
+    genre: "Sci-Fi",
+    year: 1999,
+    imdb: 8.7,
+    rating: 4.8,
+    duration: "2h 16m",
+    poster: "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/hEpWvX6Bp79eLxY1W95UR09WVsU.jpg",
+    description: "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+  },
+  {
+    id: 9,
+    title: "Fight Club",
+    genre: "Drama",
+    year: 1999,
+    imdb: 8.8,
+    rating: 4.8,
+    duration: "2h 19m",
+    poster: "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+    description: "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+  },
+  {
+    id: 10,
+    title: "Gladiator",
+    genre: "Action",
+    year: 2000,
+    imdb: 8.5,
+    rating: 4.7,
+    duration: "2h 35m",
+    poster: "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/Ar7tD5N2hE9Zg0kGqZzD7C2h7tW.jpg",
+    description: "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
   }
 ];
-
